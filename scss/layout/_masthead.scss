@@ -2,11 +2,12 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
