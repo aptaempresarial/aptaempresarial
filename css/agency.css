@@ -25,6 +25,10 @@ a:hover {
   color: #0f4d92 !important;
 }
 
+.justified {
+  text-align: justify;
+}
+
 h1,
 h2,
 h3,
