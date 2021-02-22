@@ -3,7 +3,8 @@ section#contact {
   background-color: $gray-900;
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
-  // background-position: center;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
   .section-heading {
     color: $white;
