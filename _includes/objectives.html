@@ -14,11 +14,7 @@
             {% for objective in site.data.sitetext[site.locale].objectives.list %}
             <div class="col-md-6">
                 <h4 class="service-heading">{{ objective.title | markdownify }}</h4>
-                {% if objective.desc %}
-                <div class="text-muted">
-                    <p>{{ objective.desc | markdownify }}</p>
-                </div>
-                {% endif %}
+                <p class="text-muted justified">{{ objective.desc}}</p>
             </div>
             {% endfor %}
         </div>

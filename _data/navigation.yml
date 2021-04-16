@@ -15,8 +15,6 @@ en: &DEFAULT_EN
       section: services
     - title: "Sobre"
       section: about
-    - title: "Documentos"
-      section: portfolio
     - title: "Nosso objetivo"
       section: objectives
     - title: "Nosso DNA"
