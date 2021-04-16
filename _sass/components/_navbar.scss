@@ -12,13 +12,16 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
+    /*color: $primary;*/
+    font-weight: bold;
+    padding: 0px;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      /*color: darken($primary, 10%);*/
+      font-weight: bold;
     }
   }
   .navbar-nav {
@@ -32,7 +35,8 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          /*color: $primary;*/
+          font-weight: bold;
         }
       }
     }
@@ -66,7 +70,7 @@
       background-color: $gray-900;
       .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0;
+        /*padding: 12px 0;*/
       }
     }
   }
