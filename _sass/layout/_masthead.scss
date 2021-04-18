@@ -29,7 +29,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
+      /*padding-top: 300px;*/
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
@@ -44,6 +44,10 @@ header.masthead {
         line-height: 75px;
         margin-bottom: 50px;
         @include heading-font;
+      }
+      .img-fluid {
+        max-width: 100%;
+        height: 350px;
       }
     }
   }
