@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Seja Bem-Vindo!
+    title: 
     text: SUA META, NOSSO DESAFIO!
     button: Entre em contato
     buttonlink: "#contact"
@@ -20,36 +20,36 @@ en: &DEFAULT_EN
     title: "Serviços"
     text: "Veja os serviços oferecidos por nós:"
     section: services
-#    list:
-#      - title: "Assessoria Financeira"
-#        desc: "-Gestão de fluxo de caixa<br>-Agenda financeira<br>-Plano de ação<br>-Estabelecimento de metas"
-#        icon: fas fa-chart-line
-#      - title: "Gestão de Custos"
-#        desc: "-Análise e classificação de custos<br>-Diagnóstico de Rendimento<br>-Desempenho operacional e financeiro<br>-Redução de riscos<br>-Formulação de preços<br>-Valuation"
-#        icon: fas fa-search-dollar
-#      - title: "Plano de Negócios"
-#        desc: "-Diagnóstico Empresarial<br>-Análise de ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-#        icon: fas fa-edit
-#      - title: "Planejamento Estratégico"
-#        desc: "-Diagnóstico Empresarial<br>-Análise de ambiente interno e externo<br>-Plano de ação<br>-Simulação de cenários<br>-Abordagem organizacional"
-#        icon: fas fa-bullseye
-    list1:
+    list:
       - title: "Assessoria Financeira"
         desc: "-Gestão de fluxo de caixa<br>-Agenda financeira<br>-Plano de ação<br>-Estabelecimento de metas"
         icon: fas fa-chart-line
       - title: "Gestão de Custos"
         desc: "-Análise e classificação de custos<br>-Diagnóstico de Rendimento<br>-Desempenho operacional e financeiro<br>-Redução de riscos<br>-Formulação de preços<br>-Valuation"
         icon: fas fa-search-dollar
-      - title: "Planejamento de projetos"
-        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-        icon: fas fa-briefcase
-    list2:
-      - title: "Análise de projetos"
-        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-        icon: fas fa-briefcase
-      - title: "Viabilidade de projetos"
-        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-        icon: fas fa-briefcase
+      - title: "Plano de Negócios"
+        desc: "-Diagnóstico Empresarial<br>-Análise de ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
+        icon: fas fa-edit
+      - title: "Planejamento Estratégico"
+        desc: "-Diagnóstico Empresarial<br>-Análise de ambiente interno e externo<br>-Plano de ação<br>-Simulação de cenários<br>-Abordagem organizacional"
+        icon: fas fa-bullseye
+#    list1:
+#      - title: "Assessoria Financeira"
+#        desc: "-Gestão de fluxo de caixa<br>-Agenda financeira<br>-Plano de ação<br>-Estabelecimento de metas"
+#        icon: fas fa-chart-line
+#      - title: "Gestão de Custos"
+#        desc: "-Análise e classificação de custos<br>-Diagnóstico de Rendimento<br>-Desempenho operacional e financeiro<br>-Redução de riscos<br>-Formulação de preços<br>-Valuation"
+#        icon: fas fa-search-dollar
+#      - title: "Planejamento de projetos"
+#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
+#        icon: fas fa-briefcase
+#    list2:
+#      - title: "Análise de projetos"
+#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
+#        icon: fas fa-briefcase
+#      - title: "Viabilidade de projetos"
+#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
+#        icon: fas fa-briefcase
 
   portfolio:
     title: "Portfolio"
