@@ -136,19 +136,15 @@ en: &DEFAULT_EN
     title: "Sobre"
     text: "Veja o começo da nossa trajetória e venha fazer parte da nossa história!"
     section: about
-    desc: "Em meados de Agosto de 2020 iniciaram-se as divulgações e serviços da
-          Apta Empresarial em assessoria financeira pela contadora Sara Bernardes,
-          assim como secretariado remoto. E para oferecer um serviço diferenciado na
-          área contábil/financeira, contamos com a parceria da Michele Sohne, que veio
-          para agregar conhecimento e ajudar nossos clientes. A Apta Empresarial foi
-          fundada com o propósito de apoiar micro, pequenos empreendedores e também
-          profissionais liberais. Ao oferecer serviços de Assessoria Financeira e
-          Consultoria Empresarial, temos como objetivo melhorar o dia a dia do
-          empresário em sua aplicação, através do direcionamento de metas e criação de
-          novas perspectivas de crescimento e expansão para auxiliar na tomada de
-          decisões. Focando na região sul do país, a meta é contribuir cada vez mais na
-          inovação com serviços remotos e de ótimo custo benefício!"
-  
+    desc: "Com o propósito de apoiar do profissional liberal ao médio empreendedor, 
+      a Apta Empresarial foi fundada. Oferecendo serviços de Assessoria Financeira e 
+      Consultoria Empresarial, nosso objetivo é melhorar o dia a dia do empresário em 
+      sua aplicação. Direcionando metas e criando novas perspectivas de crescimento e 
+      expansão auxiliando na tomada de decisão. Em meados de Agosto de 2020 iniciou-se 
+      as divulgações e serviços da Apta e para oferecer um serviço diferenciado na gestão 
+      financeira, contamos com ótimas parcerias. Focando na Região Sul do país, a meta é 
+      contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
+    
   objectives:
     title: "Nosso Objetivo"
     text: "O talento vence jogos, mas só uma aliança de sucesso ganha campeonatos."
@@ -170,7 +166,7 @@ en: &DEFAULT_EN
               stakeholders para o funcionamento do seu negócio - obtenham um aproveitamento
               ótimo, gerando resultados e abrindo novas oportunidades no escopo empresarial. “O
               homem nunca está satisfeito porque a busca é mais satisfatória que a chegada.”"
-      - title: "Pegada autônoma"
+      - title: "Empreender e Alavancar"
         desc: "Para você que é AUTÔNOMO e está perdido com a administração das finanças,
               pois está focado em alimentar seus negócios, a Apta oferece apoio. Operamos como
               principal suporte para o crescimento e evolução dos seus negócios. Estar em
@@ -195,18 +191,26 @@ en: &DEFAULT_EN
 
   dna:
     title: "Nosso DNA"
-    text: "Aqui o principal valor é a parceria com todos aqueles que, de alguma forma, estão presentes nessa caminhada!"
+    text: "Aqui o principal valor é a parceria com todos aqueles que, de alguma forma estão presentes nessa caminhada!"
     section: dna
     desc: "Nossos serviços estão pautados em valores como:
           <br>
+          <ul>
+          <li>
           A Parceria: alinhamento de interesses e prioridades a fim de gerar soluções
           excelentes para nossos clientes.
+          </li>
           <br>
+          <li>
           A Conveniência: uma busca de simplificação da execução dos processos de
           mudança, de forma a auxiliar o nosso cliente a atingir seus objetivos.
+          </li>
           <br>
+          <li>
           Previsibilidade: no direcionamento empresarial, através da análise e gestão
-          originadas por meio do nosso trabalho de esclarecimento e instrução organizacional."
+          originadas por meio do nosso trabalho de esclarecimento e instrução organizacional.
+          </li>
+          </ul>"
 
   clients:
     section: clients
