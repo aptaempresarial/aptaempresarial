@@ -3,9 +3,9 @@
     <div class="container">
       <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
 	  {% for client in site.data.sitetext[site.locale].clients.list %}
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-2 align-middle text-center" style="line-height: 100px;">
           <a href="{{ client.url }}">
-            <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "100px" }}">
+            <img class="img-fluid mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "100px" }};">
           </a>
         </div>
 	  {% endfor %}
