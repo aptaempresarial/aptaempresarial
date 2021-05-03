@@ -1,5 +1,5 @@
 <!-- Services -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].services.section | default: " services " }}">
+<section class="page-section bg-alt" id="{{ site.data.sitetext[site.locale].services.section | default: " services " }}">
     <div class="container">
 
         <div class="row">
@@ -25,30 +25,6 @@
             </div>
             {% endfor %}
         </div>
-        <!--<div class="row text-center">
-            {% for service in site.data.sitetext[site.locale].services.list1 %}
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-                <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-                {% if service.desc %}
-                <div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-            </div>
-            {% endfor %} {% for service in site.data.sitetext[site.locale].services.list2 %}
-            <div class="col-md-6">
-                <span class="fa-stack fa-4x">
-        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-        <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-      </span>
-                <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-                {% if service.desc %}
-                <div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-            </div>
-            {% endfor %}
-        </div>-->
-
     </div>
 </section>
 <!-- End Services -->

@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   header:
     title: 
     text: SUA META, NOSSO DESAFIO!
-    button: Entre em contato
-    buttonlink: "#contact"
+    button: Converse conosco
+    buttonlink: "https://api.whatsapp.com/send?phone=+5547991207077&text=Olá!"
 
   services:
     title: "Serviços"
@@ -77,23 +77,6 @@ en: &DEFAULT_EN
               <br>
               -Abordagem Organizacional"
         icon: fas fa-bullseye
-#    list1:
-#      - title: "Assessoria Financeira"
-#        desc: "-Gestão de fluxo de caixa<br>-Agenda financeira<br>-Plano de ação<br>-Estabelecimento de metas"
-#        icon: fas fa-chart-line
-#      - title: "Gestão de Custos"
-#        desc: "-Análise e classificação de custos<br>-Diagnóstico de Rendimento<br>-Desempenho operacional e financeiro<br>-Redução de riscos<br>-Formulação de preços<br>-Valuation"
-#        icon: fas fa-search-dollar
-#      - title: "Planejamento de projetos"
-#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-#        icon: fas fa-briefcase
-#    list2:
-#      - title: "Análise de projetos"
-#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-#        icon: fas fa-briefcase
-#      - title: "Viabilidade de projetos"
-#        desc: "-Diagnóstico organizacional<br>-Plano de ação<br>-Análise do ambiente interno e externo<br>-Modelo de negócios<br>-Delineamento de metas<br>-Diagnóstico de viabilidade<br>-Análise de mercado<br>-Simulação de cenários<br>-Abordagem organizacional"
-#        icon: fas fa-briefcase
 
   portfolio:
     title: "Portfolio"
@@ -137,13 +120,13 @@ en: &DEFAULT_EN
     text: "Veja o começo da nossa trajetória e venha fazer parte da nossa história!"
     section: about
     desc: "Com o propósito de apoiar do profissional liberal ao médio empreendedor, 
-      a Apta Empresarial foi fundada. Oferecendo serviços de Assessoria Financeira e 
-      Consultoria Empresarial, nosso objetivo é melhorar o dia a dia do empresário em 
-      sua aplicação. Direcionando metas e criando novas perspectivas de crescimento e 
-      expansão auxiliando na tomada de decisão. Em meados de Agosto de 2020 iniciou-se 
-      as divulgações e serviços da Apta e para oferecer um serviço diferenciado na gestão 
-      financeira, contamos com ótimas parcerias. Focando na Região Sul do país, a meta é 
-      contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
+          a Apta Empresarial foi fundada. Oferecendo serviços de Assessoria Financeira e 
+          Consultoria Empresarial, nosso objetivo é melhorar o dia a dia do empresário em 
+          sua aplicação. Direcionando metas e criando novas perspectivas de crescimento e 
+          expansão auxiliando na tomada de decisão. Em meados de Agosto de 2020 iniciou-se 
+          as divulgações e serviços da Apta e para oferecer um serviço diferenciado na gestão 
+          financeira, contamos com ótimas parcerias. Focando na Região Sul do país, a meta é 
+          contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
     
   objectives:
     title: "Nosso Objetivo"
@@ -193,24 +176,12 @@ en: &DEFAULT_EN
     title: "Nosso DNA"
     text: "Aqui o principal valor é a parceria com todos aqueles que, de alguma forma estão presentes nessa caminhada!"
     section: dna
-    desc: "Nossos serviços estão pautados em valores como:
-          <br>
-          <ul>
-          <li>
-          A Parceria: alinhamento de interesses e prioridades a fim de gerar soluções
-          excelentes para nossos clientes.
-          </li>
-          <br>
-          <li>
-          A Conveniência: uma busca de simplificação da execução dos processos de
-          mudança, de forma a auxiliar o nosso cliente a atingir seus objetivos.
-          </li>
-          <br>
-          <li>
-          Previsibilidade: no direcionamento empresarial, através da análise e gestão
-          originadas por meio do nosso trabalho de esclarecimento e instrução organizacional.
-          </li>
-          </ul>"
+    desc: "Nossos serviços estão pautados em valores como: A <i>Parceria</i> com nossos clientes, 
+          alinhando <b>interesses</b> e <b>prioridades</b> a fim de gerar <b>soluções</b>. A <i>Conveniência</i> na qual 
+          nossos serviços buscam simplificar a execução dos processos de mudança de forma a 
+          auxiliar o nosso cliente a atingir seus objetivos. Tendo em vista a conveniência e parceria, 
+          buscamos prover a <i>Previsibilidade</i> no direcionamento empresarial pela análise e gestão 
+          originadas através do nosso trabalho de esclarecimento e instrução organizacional."
 
   clients:
     section: clients
@@ -218,22 +189,16 @@ en: &DEFAULT_EN
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "Academia Johann Team"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/ACADEMIA_JOHANN_TEAM.png
       - title: "Everson Pedroso Corretor de Imóveis"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
       - title: "Hydro HS"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/HYDRO_HS.png
       - title: "Infante Advisory"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/INFANTE_ADVISORY.png
       - title: "Vocação Empreendedora"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/VOCAÇÃO_EMPREENDEDORA.png
       - title: "Whither Idiomas"
-        url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/WHITHER_IDIOMAS.png
 
   team:
@@ -244,12 +209,19 @@ en: &DEFAULT_EN
     people:
       - name: "Michele Sohne"
         role: "co-CEO"
+        desc: "Gestora Financeira com especialização em Gestão Empresarial, 
+              Gestora de Custos especialista em Relatórios Gerenciais e KPIs, 
+              Consultora Financeira e Ex- Prestadora de serviço pelo SEBRAE"
         image: assets/img/team/Michele.jpeg
         social:
           - url: https://www.linkedin.com/in/michele-sohne-318b3466/
             icon: fab fa-linkedin-in
       - name: "Sara Bernardes"
         role: "co-CEO"
+        desc: "Contadora graduada na Universidade do Estado de Santa Catarina, 
+              Assessora Financeira e Operacional com experiência no setor Comercial 
+              e Financeiro, Análise de Processos Internos, Gerenciamento de Cronogramas 
+              e Liderança de Equipe."
         image: assets/img/team/Sara.jpg
         social:
           - url: https://www.linkedin.com/in/sarabernardess/
