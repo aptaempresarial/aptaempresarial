@@ -5,8 +5,8 @@
 
 #Image Customization
 header-image: "../img/header.jpg"
-contact-image: "../img/contact.png"
-about-image: "../assets/img/logos/aptaempresarial/logo-about.png"
+contact-image: "../img/contact.jpg"
+about-image: "../assets/img/logos/aptaempresarial/Logo Apta Flat vertical.png"
 logo-image: "../assets/img/logos/aptaempresarial/Logo Apta Flat branca.png"
 
 #Font Awesome icon for portfolio grid when an item is hovered over

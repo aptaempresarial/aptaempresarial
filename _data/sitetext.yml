@@ -2,18 +2,18 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
+# locale: "pt-BR"  [YOUR PREFERRED LOCALE]
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
 
-# English (default)
+# Português (default)
 # -----------------
-en: &DEFAULT_EN
+pt-BR: &DEFAULT_PT
   header:
     title: 
     text: SUA META, NOSSO DESAFIO!
-    button: Converse conosco
+    button: Fale conosco
     buttonlink: "https://api.whatsapp.com/send?phone=+5547991207077&text=Olá!"
 
   services:
@@ -21,62 +21,60 @@ en: &DEFAULT_EN
     text: "Veja os serviços oferecidos por nós:"
     section: services
     list:
-      - title: "Assessoria Financeira"
+      - title: "Assessoria<br>Financeira"
         desc: "-Gestão de Fluxo de Caixa
+              <br>
+              -Contas a Pagar/Receber
               <br>
               -Agenda Financeira
               <br>
-              -Definição do Plano de Ação
-              <br>
               -Estabelecimento de Metas"
         icon: fas fa-chart-line
-      - title: "Gestão de Custos"
+      - title: "Gestão<br>de Custos"
         desc: "-Análise e Classificação de Custos
               <br>
-              -Diagnóstico de Rendimento
-              <br>
-              -Desempenho Operacional e Financeiro
+              -Margem de Contribuição
               <br>
               -Redução de Riscos
               <br>
-              -Formulação de Preços
-              <br>
-              -Valuation"
+              -Formulação de Preços"
         icon: fas fa-search-dollar
-      - title: "Plano de Negócios"
-        desc: "-Diagnóstico Empresarial
+      - title: "Plano<br>de Negócios"
+        desc: "-Diagnóstico Organizacional
               <br>
               -Análise de Ambiente Interno e Externo
               <br>
               -Modelo de Negócios
               <br>
-              -Delineamento de Viabilidade
+              -Delineamento de Metas"
+        icon: fas fa-edit
+      - title: "Planejamento<br>Estratégico"
+        desc: "-Diagnóstico de Viabilidade Financeira
               <br>
               -Análise de Mercado
-              <br>
-              -Planejamento de Marketing
-              <br>
-              -Planejamento Operacional
-              <br>
-              -Planejamento Financeiro
               <br>
               -Simulação de Cenários
               <br>
               -Abordagem Organizacional"
-        icon: fas fa-edit
-      - title: "Planejamento Estratégico"
-        desc: "-Diagnóstico Empresarial
-              <br>
-              -Elaborações do Tripé Estratégico
-              <br>
-              -Análise de Ambiente Interno e Externo
-              <br>
-              -Definição de Metas, Objetivos e Indicadores
-              <br>
-              -Definição do Plano de Ação
-              <br>
-              -Abordagem Organizacional"
         icon: fas fa-bullseye
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "Hydro HS"
+        logo: assets/img/clients/HYDRO_HS.png
+      - title: "Whither Idiomas"
+        logo: assets/img/clients/WHITHER_IDIOMAS.png
+      - title: "Academia Johann Team"
+        logo: assets/img/clients/ACADEMIA_JOHANN_TEAM.png
+      - title: "Infante Advisory"
+        logo: assets/img/clients/INFANTE_ADVISORY.png
+      - title: "Vocação Empreendedora"
+        logo: assets/img/clients/VOCAÇÃO_EMPREENDEDORA.png
+      - title: "Everson Pedroso Corretor de Imóveis"
+        logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
 
   portfolio:
     title: "Portfolio"
@@ -124,9 +122,9 @@ en: &DEFAULT_EN
           Consultoria Empresarial, nosso objetivo é melhorar o dia a dia do empresário em 
           sua aplicação. Direcionando metas e criando novas perspectivas de crescimento e 
           expansão auxiliando na tomada de decisão. Em meados de Agosto de 2020 iniciou-se 
-          as divulgações e serviços da Apta e para oferecer um serviço diferenciado na gestão 
-          financeira, contamos com ótimas parcerias. Focando na Região Sul do país, a meta é 
-          contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
+          as divulgações e serviços da Apta e para oferecer um serviço diferenciado na 
+          gestão financeira, contamos com ótimas parcerias. Focando na Região Sul do país, 
+          a meta é contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
     
   objectives:
     title: "Nosso Objetivo"
@@ -141,16 +139,16 @@ en: &DEFAULT_EN
       - title: "Direcionamento"
         desc: "Você cultiva os dados, a Apta encaminha. Metas, propósitos e objetivos traçados
               em curto, médio e longo prazo. Foco para o aumento dos resultados com orientação 
-              profissional capacitada. Interesse genuíno da Apta no fortalecimento do seu
-              negócio."
+              profissional capacitada. Interesse genuíno da Apta no <b>fortalecimento do seu
+              negócio</b>."
       - title: "Sucesso do cliente"
         desc: "Implementamos controle e processos para que toda a informação gerada por
               você, seus colaboradores, seus clientes e fornecedores - os quais são os
               stakeholders para o funcionamento do seu negócio - obtenham um aproveitamento
               ótimo, gerando resultados e abrindo novas oportunidades no escopo empresarial. “O
               homem nunca está satisfeito porque a busca é mais satisfatória que a chegada.”"
-      - title: "Empreender e Alavancar"
-        desc: "Para você que é AUTÔNOMO e está perdido com a administração das finanças,
+      - title: "Liberdade para empreender"
+        desc: "Para você que é <b>autônomo</b> e está perdido com a administração das finanças,
               pois está focado em alimentar seus negócios, a Apta oferece apoio. Operamos como
               principal suporte para o crescimento e evolução dos seus negócios. Estar em
               sintonia com a saúde financeira vai além do faturamento, pois aqui usamos isso
@@ -161,9 +159,8 @@ en: &DEFAULT_EN
               um DNA o qual atribui propósito na hora de fechar uma parceria. Mas tenha certeza
               que marcar um café conosco será um papo bom na certa! Aguardamos a sua
               companhia sem compromisso nas nossas manhãs. Os horários podem ser
-              marcados no e-mail: contato@aptaempresarial.com.br ou no whatsapp +55 (47)
-              99120-7077."
-      - title: "Serviços vitalícios e transitórios"
+              marcados por E-mail ou Whatsapp."
+      - title: "Serviços contínuos ou esporádicos"
         desc: "Oferecemos serviços de assessoria que apoiam o empreendedor. Prezamos pelo
               bom funcionamento do seu negócio e valorizamos cada relação cultivada até que
               um novo ciclo se inicie. Portanto, somos gratos pela oportunidade de oferecer
@@ -182,24 +179,6 @@ en: &DEFAULT_EN
           auxiliar o nosso cliente a atingir seus objetivos. Tendo em vista a conveniência e parceria, 
           buscamos prover a <i>Previsibilidade</i> no direcionamento empresarial pela análise e gestão 
           originadas através do nosso trabalho de esclarecimento e instrução organizacional."
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "Academia Johann Team"
-        logo: assets/img/clients/ACADEMIA_JOHANN_TEAM.png
-      - title: "Everson Pedroso Corretor de Imóveis"
-        logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
-      - title: "Hydro HS"
-        logo: assets/img/clients/HYDRO_HS.png
-      - title: "Infante Advisory"
-        logo: assets/img/clients/INFANTE_ADVISORY.png
-      - title: "Vocação Empreendedora"
-        logo: assets/img/clients/VOCAÇÃO_EMPREENDEDORA.png
-      - title: "Whither Idiomas"
-        logo: assets/img/clients/WHITHER_IDIOMAS.png
 
   team:
     title: "NOSSO TIME"
@@ -238,9 +217,9 @@ en: &DEFAULT_EN
         icon: fab fa-whatsapp
       - url: https://www.linkedin.com/company/apta-emp/
         icon: fab fa-linkedin-in
-      - url: www.fb.com/aptaempresarial
+      - url: https://www.fb.com/aptaempresarial
         icon: fab fa-facebook
-      - url: www.instagram.com/aptaempresarial
+      - url: https://www.instagram.com/aptaempresarial
         icon: fab fa-instagram
 
   footer:
@@ -249,165 +228,3 @@ en: &DEFAULT_EN
     social:
       - url: https://github.com/aptaempresarial/aptaempresarial
         icon: "fab fa-github"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
