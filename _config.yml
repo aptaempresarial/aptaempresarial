@@ -20,6 +20,9 @@ title      : Apta Empresarial
 email      : contato@aptaempresarial.com.br #this is also the email contact forms will go to
 description: "Seu desafio, nossa meta!"
 author     : Codetta Tech
+logoDev:
+  path: assets/img/codetta.svg
+  height: 30
 logo:     #optional, defaults to site title
   path: assets/img/logos/aptaempresarial/Logo Apta Flat branca.png
   height: 100 #height in px, defaults to 52px
