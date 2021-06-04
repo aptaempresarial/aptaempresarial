@@ -14,7 +14,7 @@
 theme: jekyll-agency
 
 url    : "https://www.aptaempresarial.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Apta Empresarial
 email      : contato@aptaempresarial.com.br #this is also the email contact forms will go to
@@ -27,7 +27,7 @@ logo:     #optional, defaults to site title
   path: assets/img/logos/aptaempresarial/Logo Apta Flat branca.png
   height: 100 #height in px, defaults to 52px
   alt: assets/img/logos/aptaempresarial/Logo Apta Flat Icone branco.png
-  heightAlt: 50
+  heightAlt: 40
 
 locale: "pt-BR" # See available languages in _data/sitetext.yml
 
