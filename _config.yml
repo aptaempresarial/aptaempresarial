@@ -11,9 +11,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+#theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://www.aptaempresarial.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Apta Empresarial
@@ -27,7 +27,7 @@ logo:     #optional, defaults to site title
   path: assets/img/logos/aptaempresarial/Logo Apta Flat branca.png
   height: 100 #height in px, defaults to 52px
   alt: assets/img/logos/aptaempresarial/Logo Apta Flat Icone branco.png
-  heightAlt: 50
+  heightAlt: 40
 
 locale: "pt-BR" # See available languages in _data/sitetext.yml
 
