@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        echo 'test'
         sh 'jekyll build'
       }
     }
