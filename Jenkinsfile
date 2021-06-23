@@ -1,12 +1,12 @@
 pipeline {
   agent {
     docker {
-      image 'jekyll/build'
+      image 'jekyll/builder'
     }
 
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo 'test'
       }
