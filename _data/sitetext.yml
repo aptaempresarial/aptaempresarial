@@ -22,40 +22,40 @@ pt-BR: &DEFAULT_PT
     section: services
     list:
       - title: "Assessoria<br>Financeira"
-        desc: "-Gestão de Fluxo de Caixa
+        desc: "Gestão de Fluxo de Caixa
               <br>
-              -Contas a Pagar/Receber
+              Contas a Pagar/Receber
               <br>
-              -Agenda Financeira
+              Agenda Financeira
               <br>
-              -Estabelecimento de Metas"
+              Estabelecimento de Metas"
         icon: fas fa-chart-line
       - title: "Gestão<br>de Custos"
-        desc: "-Análise e Classificação de Custos
+        desc: "Análise e Classificação de Custos
               <br>
-              -Margem de Contribuição
+              Margem de Contribuição
               <br>
-              -Redução de Riscos
+              Redução de Riscos
               <br>
-              -Formulação de Preços"
+              Formulação de Preços"
         icon: fas fa-search-dollar
       - title: "Plano<br>de Negócios"
-        desc: "-Diagnóstico Organizacional
+        desc: "Diagnóstico Organizacional
               <br>
-              -Análise de Ambiente Interno e Externo
+              Análise de Ambiente Interno e Externo
               <br>
-              -Modelo de Negócios
+              Modelo de Negócios
               <br>
-              -Delineamento de Metas"
+              Delineamento de Metas"
         icon: fas fa-edit
       - title: "Planejamento<br>Estratégico"
-        desc: "-Diagnóstico de Viabilidade Financeira
+        desc: "Diagnóstico de Viabilidade Financeira
               <br>
-              -Análise de Mercado
+              Análise de Mercado
               <br>
-              -Simulação de Cenários
+              Simulação de Cenários
               <br>
-              -Abordagem Organizacional"
+              Abordagem Organizacional"
         icon: fas fa-bullseye
 
   clients:
@@ -75,43 +75,6 @@ pt-BR: &DEFAULT_PT
         logo: assets/img/clients/VOCAÇÃO_EMPREENDEDORA.png
       - title: "Everson Pedroso Corretor de Imóveis"
         logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
-
-  # portfolio:
-  #   title: "Portfolio"
-  #   text: "Lorem ipsum dolor sit amet consectetur."
-  #   section: portfolio
-  #   closebutton: "Close Project"
-
-  # timeline:
-  #   title: "About"
-  #   text: "Lorem ipsum timeline"
-  #   section: timeline
-  #   # left is the default
-  #   #start_align: "left"
-  #   events:
-  #     - title: "Our Humble Beginnings"
-  #       year: "2009-2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/1.jpg
-  #       alt:
-  #     - title: "An Agency is Born"
-  #       year: "March 2011"
-  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-  #       image: assets/img/timeline/2.jpg
-  #       alt:
-  #     - title: "Jekyll Theme is created"
-  #       year: "2019"
-  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-  #       image: assets/img/timeline/3.jpg
-  #       alt: image alt text
-  #     - title: "Title"
-  #       year: "2009-2011"
-  #       desc: "Your description here, **Markdown** is fully supported."
-  #       image: assets/img/timeline/4.jpg
-  #       alt:
-  #       # you can enforce the alignment
-  #       align: right
-  #   end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "Sobre"
@@ -140,41 +103,41 @@ pt-BR: &DEFAULT_PT
       - title: "Plano Básico"
         value: "R$69,90"
         annual: "ou R$699,00 anual"
-        desc: "-Controle de 01 Conta Corrente de em média 30 lançamentos mensais
+        desc: "Controle de 01 Conta Corrente de em média 30 lançamentos mensais
               <br>
-              -Controle de 01 Fatura Cartão de Crédito da C/C
+              Controle de 01 Fatura Cartão de Crédito da C/C
               <br>
-              -Planilha Controle de Caixa
+              Planilha Controle de Caixa
               <br>
-              -Agenda Financeira (Contas a pagar)
+              Agenda Financeira (Contas a pagar)
               <br>
-              -Atendimento via e-mail"
+              Atendimento via e-mail"
         icon: assets/img/prices/basico.svg
       - title: "Plano Avançado"
         value: "R$129,90"
         annual: "ou R$1.299,00 anual"
-        desc: "-Controle de 01 Conta Corrente de em média 60 lançamentos mensais
+        desc: "Controle de 01 Conta Corrente de em média 60 lançamentos mensais
               <br>
-              -Controle de 01 Fatura Cartão de Crédito da C/C
+              Controle de 01 Fatura Cartão de Crédito da C/C
               <br>
-              -Planilha Controle Caixa
+              Planilha Controle Caixa
               <br>
-              -Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa
+              Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa
               <br>
-              -Atendimento via e-mail e whatsapp"
+              Atendimento via e-mail e whatsapp"
         icon: assets/img/prices/avancado.svg
       - title: "Plano Pro"
         value: "R$309,90"
         annual: "ou R$3.099,00 anual"
-        desc: "-Controle de 01 Conta Corrente de em média 200 lançamentos mensais
+        desc: "Controle de 01 Conta Corrente de em média 200 lançamentos mensais
               <br>
-              -Controle de 01 Fatura Cartão de Crédito da C/C
+              Controle de 01 Fatura Cartão de Crédito da C/C
               <br>
-              -Planilha Controle Caixa
+              Planilha Controle Caixa
               <br>
-              -Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa | Posição a Pagar por Fornecedor | Contas a Receber por Cliente | Movimento por Centro de Custo**
+              Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa | Posição a Pagar por Fornecedor | Contas a Receber por Cliente | Movimento por Centro de Custo**
               <br>
-              -Atendimento via e-mail e whatsapp"
+              Atendimento via e-mail e whatsapp"
         icon: assets/img/prices/pro.svg
         pro: fas fa-crown
       
