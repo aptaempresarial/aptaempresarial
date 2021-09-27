@@ -76,42 +76,42 @@ pt-BR: &DEFAULT_PT
       - title: "Everson Pedroso Corretor de Imóveis"
         logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+  # portfolio:
+  #   title: "Portfolio"
+  #   text: "Lorem ipsum dolor sit amet consectetur."
+  #   section: portfolio
+  #   closebutton: "Close Project"
 
-  timeline:
-    title: "About"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  # timeline:
+  #   title: "About"
+  #   text: "Lorem ipsum timeline"
+  #   section: timeline
+  #   # left is the default
+  #   #start_align: "left"
+  #   events:
+  #     - title: "Our Humble Beginnings"
+  #       year: "2009-2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/1.jpg
+  #       alt:
+  #     - title: "An Agency is Born"
+  #       year: "March 2011"
+  #       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #       image: assets/img/timeline/2.jpg
+  #       alt:
+  #     - title: "Jekyll Theme is created"
+  #       year: "2019"
+  #       desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+  #       image: assets/img/timeline/3.jpg
+  #       alt: image alt text
+  #     - title: "Title"
+  #       year: "2009-2011"
+  #       desc: "Your description here, **Markdown** is fully supported."
+  #       image: assets/img/timeline/4.jpg
+  #       alt:
+  #       # you can enforce the alignment
+  #       align: right
+  #   end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "Sobre"
@@ -125,7 +125,59 @@ pt-BR: &DEFAULT_PT
           as divulgações e serviços da Apta e para oferecer um serviço diferenciado na 
           gestão financeira, contamos com ótimas parcerias. Focando na Região Sul do país, 
           a meta é contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
-    
+
+  prices:
+    title: "Planos"
+    text: "Confira nossos planos!"
+    section: pricing
+    warnings:
+      - desc: "*Reuniões não estão inclusas no valor dos planos apresentados, consulte valores e disponibilidade."
+      - desc: "**Consultar particularidades via whatsapp."
+      - desc: "Para a adesão dos seguintes planos:"
+      - desc: "- Será somente aceito extratos em OFX e PDF (ambos obrigatórios);"
+      - desc: "- Há possibilidade de adicionar extratos e/ou centros de custo ao seu plano, consulte-nos diretamente."
+    list:
+      - title: "Plano Básico"
+        value: "R$69,90"
+        annual: "ou R$699,00 anual"
+        desc: "-Controle de 01 Conta Corrente de em média 30 lançamentos mensais
+              <br>
+              -Controle de 01 Fatura Cartão de Crédito da C/C
+              <br>
+              -Planilha Controle de Caixa
+              <br>
+              -Agenda Financeira (Contas a pagar)
+              <br>
+              -Atendimento via e-mail"
+        icon: assets/img/prices/basico.svg
+      - title: "Plano Avançado"
+        value: "R$129,90"
+        annual: "ou R$1.299,00 anual"
+        desc: "-Controle de 01 Conta Corrente de em média 60 lançamentos mensais
+              <br>
+              -Controle de 01 Fatura Cartão de Crédito da C/C
+              <br>
+              -Planilha Controle Caixa
+              <br>
+              -Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa
+              <br>
+              -Atendimento via e-mail e whatsapp"
+        icon: assets/img/prices/avancado.svg
+      - title: "Plano Pro"
+        value: "R$309,90"
+        annual: "ou R$3.099,00 anual"
+        desc: "-Controle de 01 Conta Corrente de em média 200 lançamentos mensais
+              <br>
+              -Controle de 01 Fatura Cartão de Crédito da C/C
+              <br>
+              -Planilha Controle Caixa
+              <br>
+              -Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa | Posição a Pagar por Fornecedor | Contas a Receber por Cliente | Movimento por Centro de Custo**
+              <br>
+              -Atendimento via e-mail e whatsapp"
+        icon: assets/img/prices/pro.svg
+        pro: fas fa-crown
+      
   objectives:
     title: "Nosso Objetivo"
     text: "O talento vence jogos, mas só uma aliança de sucesso ganha campeonatos."
@@ -179,6 +231,18 @@ pt-BR: &DEFAULT_PT
           auxiliar o nosso cliente a atingir seus objetivos. Tendo em vista a conveniência e parceria, 
           buscamos prover a <i>Previsibilidade</i> no direcionamento empresarial pela análise e gestão 
           originadas através do nosso trabalho de esclarecimento e instrução organizacional."
+        
+  collaborate:
+    title: "Colabore"
+    text: ""
+    section: collaborate
+    desc: "Pensando sobre as necessidades de nossos clientes e da 
+          comunidade que trabalha com gestão financeira e estratégica 
+          montamos esse formulário com o intuito de entender e melhorar 
+          as necessidades de cada empreendedor que venha a participar 
+          da Apta Empresarial."
+    icon: fas fa-file-signature
+    link: "https://forms.gle/qSrRSZGmi2fYZRfq5"
 
   team:
     title: "NOSSO TIME"
@@ -186,15 +250,6 @@ pt-BR: &DEFAULT_PT
     subtext: 
     section: team
     people:
-      - name: "Michele Sohne"
-        role: "co-CEO"
-        desc: "Gestora Financeira com especialização em Gestão Empresarial, 
-              Gestora de Custos especialista em Relatórios Gerenciais e KPIs, 
-              Consultora Financeira e Ex- Prestadora de serviço pelo SEBRAE"
-        image: assets/img/team/Michele.jpeg
-        social:
-          - url: https://www.linkedin.com/in/michele-sohne-318b3466/
-            icon: fab fa-linkedin-in
       - name: "Sara Bernardes"
         role: "co-CEO"
         desc: "Contadora graduada na Universidade do Estado de Santa Catarina, 
@@ -213,8 +268,8 @@ pt-BR: &DEFAULT_PT
     socials:
       - url: mailto:contato@aptaempresarial.com.br
         icon: fas fa-envelope
-      - url: https://api.whatsapp.com/send?phone=+5547991207077&text=Olá!
-        icon: fab fa-whatsapp
+      # - url: https://api.whatsapp.com/send?phone=+5547991207077&text=Olá!
+      #   icon: fab fa-whatsapp
       - url: https://www.linkedin.com/company/apta-emp/
         icon: fab fa-linkedin-in
       - url: https://www.fb.com/aptaempresarial

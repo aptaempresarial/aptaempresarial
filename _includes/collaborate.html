@@ -1,0 +1,24 @@
+<!-- Collaborate -->
+<section class="page-section bg-alt" id="{{ site.data.sitetext[site.locale].collaborate.section | default: " collaborate " }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].collaborate.title | default: "Sobre nós" }}</h2>
+                <!-- <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].collaborate.text | default: "" }}</h3> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">                
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="text-muted">
+                        {{ site.data.sitetext[site.locale].collaborate.desc | default: "" }}
+                    </p>
+                    <a href="{{ site.data.sitetext[site.locale].collaborate.link }}" target="_blank">
+                        <i class="fa-stack-4x fa-size {{ site.data.sitetext[site.locale].collaborate.icon }}"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Collaborate -->

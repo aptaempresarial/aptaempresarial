@@ -79,3 +79,13 @@ img::-moz-selection {
 .bg-alt {
   background-color: #d3d3d3;
 }
+
+.container {
+  @media(min-width: 1200px){
+    max-width: 1340px;
+  }
+}
+
+.price {
+  font-size: 40px;
+}
