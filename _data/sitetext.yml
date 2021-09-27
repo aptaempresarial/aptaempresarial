@@ -91,53 +91,46 @@ pt-BR: &DEFAULT_PT
 
   prices:
     title: "Planos"
-    text: "Confira nossos planos!"
+    text: "Confira nossos planos de Assessoria Financeira!"
     section: pricing
     warnings:
       - desc: "*Reuniões não estão inclusas no valor dos planos apresentados, consulte valores e disponibilidade."
       - desc: "**Consultar particularidades via whatsapp."
-      - desc: "Para a adesão dos seguintes planos:"
-      - desc: "- Será somente aceito extratos em OFX e PDF (ambos obrigatórios);"
-      - desc: "- Há possibilidade de adicionar extratos e/ou centros de custo ao seu plano, consulte-nos diretamente."
+    rules: 
+      title: "Para a adesão dos seguintes planos:"
+      items:
+        - "Será somente aceito extratos em OFX e PDF (ambos obrigatórios);"
+        - "Há possibilidade de adicionar extratos e/ou centros de custo ao seu plano, consulte-nos diretamente."
     list:
       - title: "Plano Básico"
         value: "R$69,90"
-        annual: "ou R$699,00 anual"
-        desc: "Controle de 01 Conta Corrente de em média 30 lançamentos mensais
-              <br>
-              Controle de 01 Fatura Cartão de Crédito da C/C
-              <br>
-              Planilha Controle de Caixa
-              <br>
-              Agenda Financeira (Contas a pagar)
-              <br>
-              Atendimento via e-mail"
+        annual: "R$699,00"
+        features:
+          - "Controle de 01 Conta Corrente de em média 30 lançamentos mensais"
+          - "Controle de 01 Fatura Cartão de Crédito da C/C"
+          - "Planilha Controle de Caixa"
+          - "Agenda Financeira (Contas a pagar)"
+          - "Atendimento via e-mail"
         icon: assets/img/prices/basico.svg
       - title: "Plano Avançado"
         value: "R$129,90"
-        annual: "ou R$1.299,00 anual"
-        desc: "Controle de 01 Conta Corrente de em média 60 lançamentos mensais
-              <br>
-              Controle de 01 Fatura Cartão de Crédito da C/C
-              <br>
-              Planilha Controle Caixa
-              <br>
-              Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa
-              <br>
-              Atendimento via e-mail e whatsapp"
+        annual: "R$1.299,00"
+        features:
+          - "Controle de 01 Conta Corrente de em média 60 lançamentos mensais"
+          - "Controle de 01 Fatura Cartão de Crédito da C/C"
+          - "Planilha Controle Caixa"
+          - "Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa"
+          - "Atendimento via e-mail e whatsapp"
         icon: assets/img/prices/avancado.svg
       - title: "Plano Pro"
         value: "R$309,90"
-        annual: "ou R$3.099,00 anual"
-        desc: "Controle de 01 Conta Corrente de em média 200 lançamentos mensais
-              <br>
-              Controle de 01 Fatura Cartão de Crédito da C/C
-              <br>
-              Planilha Controle Caixa
-              <br>
-              Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa | Posição a Pagar por Fornecedor | Contas a Receber por Cliente | Movimento por Centro de Custo**
-              <br>
-              Atendimento via e-mail e whatsapp"
+        annual: "R$3.099,00"
+        features: 
+          - "Controle de 01 Conta Corrente de em média 200 lançamentos mensais"
+          - "Controle de 01 Fatura Cartão de Crédito da C/C"
+          - "Planilha Controle Caixa"
+          - "Agenda Financeira (Contas a pagar e a Receber) | Contas Recebidas | Contas Pagas | Fluxo de Caixa | Posição a Pagar por Fornecedor | Contas a Receber por Cliente | Movimento por Centro de Custo**"
+          - "Atendimento via e-mail e whatsapp"
         icon: assets/img/prices/pro.svg
         pro: fas fa-crown
       

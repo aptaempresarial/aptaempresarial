@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.0", "< 4.3"
 gem "bundler", "~> 2.0"
+gem "webrick"
 #gemspec
 
 # Delete the following lines if not on Windows: 
