@@ -21,15 +21,12 @@
                 </span>
                 <h4 class="service-heading">{{ price.title }}
                     {% if price.pro %}
-                        <i class="{{ price.pro }}"></i>
+                        <i class="{{ price.pro }}" style="color: gold;"></i>
                     {% endif %}
                 </h4>
                 {% if price.value %}
                 <span class="price">
-                    {{ price.value }}
-                </span>
-                <span>
-                    /mês
+                    {{ price.value }}/mês
                 </span>
                 <br>
                 <span>
@@ -37,6 +34,7 @@
                 </span>
                 {% endif %}
                 {% if price.desc %}
+                <br>
                 <div class="text-muted">
                     <p>{{ price.desc }}</p>
                 </div>{% endif %}
