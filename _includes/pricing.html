@@ -26,7 +26,8 @@
                 </h4>
                 {% if price.value %}
                 <span class="price">
-                    {{ price.value }}/mês
+                    {{ price.value }}
+                    <small>/mês</small>
                 </span>
                 <br>
                 <span>
@@ -43,7 +44,7 @@
         </div>
         {% for warning in site.data.sitetext[site.locale].prices.warnings %}
             <br>
-            <small>{{ warning.desc }}</small>
+            <p class="text-muted">{{ warning.desc }}</p>
         {% endfor %}
         <small>{{ site.data.sitetext[site.locale].prices.warning2 }}</small>
     </div>
