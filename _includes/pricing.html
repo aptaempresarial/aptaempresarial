@@ -24,6 +24,18 @@
                         <i class="{{ price.pro }}"></i>
                     {% endif %}
                 </h4>
+                {% if price.value %}
+                <span class="price">
+                    {{ price.value }}
+                </span>
+                <span>
+                    /mês
+                </span>
+                <br>
+                <span>
+                    {{ price.annual }}
+                </span>
+                {% endif %}
                 {% if price.desc %}
                 <div class="text-muted">
                     <p>{{ price.desc }}</p>

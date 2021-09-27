@@ -136,9 +136,10 @@ pt-BR: &DEFAULT_PT
       - desc: "Para a adesão dos seguintes planos:"
       - desc: "- Será somente aceito extratos em OFX e PDF (ambos obrigatórios);"
       - desc: "- Há possibilidade de adicionar extratos e/ou centros de custo ao seu plano, consulte-nos diretamente."
-
     list:
       - title: "Plano Básico"
+        value: "R$69,90"
+        annual: "ou R$699,00 anual"
         desc: "-Controle de 01 Conta Corrente de em média 30 lançamentos mensais
               <br>
               -Controle de 01 Fatura Cartão de Crédito da C/C
@@ -150,6 +151,8 @@ pt-BR: &DEFAULT_PT
               -Atendimento via e-mail"
         icon: assets/img/prices/basico.svg
       - title: "Plano Avançado"
+        value: "R$129,90"
+        annual: "ou R$1.299,00 anual"
         desc: "-Controle de 01 Conta Corrente de em média 60 lançamentos mensais
               <br>
               -Controle de 01 Fatura Cartão de Crédito da C/C
@@ -161,6 +164,8 @@ pt-BR: &DEFAULT_PT
               -Atendimento via e-mail e whatsapp"
         icon: assets/img/prices/avancado.svg
       - title: "Plano Pro"
+        value: "R$309,90"
+        annual: "ou R$3.099,00 anual"
         desc: "-Controle de 01 Conta Corrente de em média 200 lançamentos mensais
               <br>
               -Controle de 01 Fatura Cartão de Crédito da C/C
