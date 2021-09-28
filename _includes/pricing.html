@@ -13,41 +13,50 @@
 
         <div class="row text-center">
             {% for price in site.data.sitetext[site.locale].prices.list %}
-            <div class="col-md-4">
-                <span class="fa-stack fa-size mb-4">
-                    <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
-                    <img src="{{ price.icon }}" class="img-fluid">
-                    <!-- <i class="{{ price.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i> -->
-                </span>
-                <h4 class="service-heading">{{ price.title }}
-                    {% if price.pro %}
-                        <i class="{{ price.pro }}"></i>
+            <div class="card col mx-3 p-2 content-align-center border shadow">
+                <img src="{{ price.icon }}" style="height: 2em" class="fa-size card-img-top mt-3">
+                <div class="card-body">
+                    <h5 class="card-title service-heading">
+                        {{ price.title }}
+                        {% if price.pro %}
+                            <i class="{{ price.pro }}" style="color: gold;"></i>
+                        {% endif %}
+                    </h5>
+                    {% if price.value %}
+                    <span class="price">
+                        {{ price.value }}
+                        <small>/mês</small>
+                    </span>
+                    <p class="text-muted"><small>ou {{ price.annual }}/ano</small></p>
                     {% endif %}
-                </h4>
-                {% if price.value %}
-                <span class="price">
-                    {{ price.value }}
-                </span>
-                <span>
-                    /mês
-                </span>
-                <br>
-                <span>
-                    {{ price.annual }}
-                </span>
-                {% endif %}
-                {% if price.desc %}
-                <div class="text-muted">
-                    <p>{{ price.desc }}</p>
-                </div>{% endif %}
+                    <br>
+                    <div>
+                        <ul class="list-group list-group-flush">
+                            {% for feature in price.features %}
+                            <li class="list-group-item">{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
             </div>
             {% endfor %}
         </div>
-        {% for warning in site.data.sitetext[site.locale].prices.warnings %}
+        <div class="text-center">
             <br>
-            <small>{{ warning.desc }}</small>
-        {% endfor %}
-        <small>{{ site.data.sitetext[site.locale].prices.warning2 }}</small>
+            {% for warning in site.data.sitetext[site.locale].prices.warnings %}
+                <p class="h6 text-muted"><small>{{ warning.desc }}</small></p>
+            {% endfor %}
+            <br>
+            <p class="h4 text-muted">
+                {{ site.data.sitetext[site.locale].prices.rules.title }}
+                <ul class="list-unstyled">
+                    {% for rule in site.data.sitetext[site.locale].prices.rules.items %}
+                        <li class="h7 text-muted">{{ rule }}</li>
+                    {% endfor %}
+                </ul>
+                </p>
+            <p class="text-muted">{{ site.data.sitetext[site.locale].prices.warning2 }}</p>
+        </div>
     </div>
 </section>
 <!-- End Pricing -->

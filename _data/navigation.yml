@@ -21,5 +21,7 @@ pt-BR: &DEFAULT_PT
       section: objectives
     - title: "Nosso DNA"
       section: dna
+    - title: "Colabore"
+      section: collaborate
     - title: "Contato"
       section: contact
