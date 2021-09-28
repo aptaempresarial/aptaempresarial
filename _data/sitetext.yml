@@ -14,7 +14,9 @@ pt-BR: &DEFAULT_PT
     title: 
     text: SUA META, NOSSO DESAFIO!
     button: Fale conosco
-    buttonlink: "https://api.whatsapp.com/send?phone=+5547991207077&text=Olá!"
+    whatsapp:
+      tel: "+5547991207077"
+      msg: "Olá, vi o seu site e gostaria de mais detalhes sobre os seus serviços!"
 
   services:
     title: "Serviços"
