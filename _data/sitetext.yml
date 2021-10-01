@@ -77,6 +77,10 @@ pt-BR: &DEFAULT_PT
         logo: assets/img/clients/VOCAÇÃO_EMPREENDEDORA.png
       - title: "Everson Pedroso Corretor de Imóveis"
         logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
+      - title: "Câmara Libertária de Acordos e Arbitragens"
+        logo: assets/img/clients/CLA_hor2_color.png
+      - title: "Codetta Tech"
+        logo: assets/img/clients/CODETTA_marcadagua_Cor 1.png
 
   about:
     title: "Sobre"
