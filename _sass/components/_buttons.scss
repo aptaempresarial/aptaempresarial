@@ -10,14 +10,14 @@
 }
 
 .btn-banner {
-  background-color: $secondary;
-  border-color: $secondary;
+  background-color: darken($secondary, 15%);
+  border-color: darken($secondary, 15%);
   color: $primary;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($secondary, 15%) !important;
-    border-color: darken($secondary, 15%) !important;
+    background-color: $secondary !important;
+    border-color: $secondary !important;
     color: $primary;
   }
   &:active,

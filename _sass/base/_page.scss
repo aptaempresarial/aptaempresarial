@@ -49,6 +49,7 @@ h6 {
     @include serif-font;
   }
 }
+
 @media(min-width:768px) {
   section {
     padding: 150px 0;
@@ -92,4 +93,53 @@ img::-moz-selection {
 
 .height-2 {
   height: 2em;
+}
+
+.video-js .vjs-control-bar { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.vjs-apta.video-js {
+    max-width: 100%;
+    width: 100%;
+    height: 50vw;
+    background-color: transparent;
+    background-size: contain;
+
+    @media(min-width:768px) {
+        width: 100%;
+        height: 25vw;
+    }
+}
+
+.vjs-apta .vjs-big-play-button {
+    font-size: 3em;
+    line-height: 1.5em;
+    height: 2.5em;
+    width: 3em;
+    left: 50%;
+    top: 50%;
+    margin-left: -(3em / 2);
+    margin-top: -(1.5em / 2);
+    color: transparent;
+    background-image: url("../img/logos/aptaempresarial/Logo Apta Flat Icone branco.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.vjs-apta .vjs-volume-level,
+.vjs-apta .vjs-play-progress,
+.vjs-apta .vjs-slider-bar {
+    color: $primary;
+    background: $primary;
+}
+
+.vjs-apta .vjs-play-control {
+    color: transparent;
+    background-image: url("../img/logos/aptaempresarial/Logo Apta Flat Icone branco.png");
+    background-size: cover;
+    background-position: center center;
 }

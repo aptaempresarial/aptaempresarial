@@ -3,7 +3,7 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       {%- if site.logo -%}
-      <img id="logo" height="{{ site.logo.height | default: 100 }}" src="{{ site.logo.path }}" />
+      <img id="logo" height="{{ site.logo.height | default: 100 }}" src="{{ site.logo.path }}"/>
       {%- else -%}
       {{ site.title }}
       {%- endif -%}
@@ -56,7 +56,7 @@
         </div>
         <div class="col-lg-6">
           <br>
-          <video class="img-fluid mx-auto d-block" width="" height="" controls muted>
+          <video class="video-js vjs-apta mx-auto d-block" controls preload="auto" data-setup='{}'>
             <source src="{{ site.data.sitetext[site.locale].header.video }}" type="video/mp4">
           </video>
         </div>
