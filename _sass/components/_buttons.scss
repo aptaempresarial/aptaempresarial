@@ -5,11 +5,19 @@
 }
 
 .btn-xl {
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 18px;
 }
 
+@media(min-width:768px) {
+  .btn-xl {
+    font-size: 20px;
+    padding: 12px 18px;
+  }
+}
+
 .btn-banner {
+  @include banner-font;
   background-color: darken($secondary, 15%);
   border-color: darken($secondary, 15%);
   color: $primary;

@@ -1,6 +1,8 @@
 #Color Customization
-highlight: "#154f8d"
-secondary: "#eeda69"
+highlight: "#0F4D92"
+secondary: "#F1D562"
+green: "#03989E"
+red: "#EB5944"
 white: "#fff"
 black: "#000"
 

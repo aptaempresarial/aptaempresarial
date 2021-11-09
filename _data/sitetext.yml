@@ -12,7 +12,7 @@
 pt-BR: &DEFAULT_PT
   header:
     title: 
-    text: SUA META, NOSSO DESAFIO!
+    text: SUA META,<br>NOSSO DESAFIO!
     button: Fale conosco
     call: Conheça nossos planos
     video: assets/video/Banner_Apta.mp4
