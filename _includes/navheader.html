@@ -44,13 +44,11 @@
         <div class="col-lg-6 mx-auto">
           <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
           {%- if site.data.sitetext[site.locale].header.button -%}
-            <a class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mr-3 mb-3"
-            href="https://api.whatsapp.com/send?phone={{ site.data.sitetext[site.locale].header.whatsapp.tel }}&text={{ site.data.sitetext[site.locale].header.whatsapp.msg | cgi_escape}}/" target="_blank">
+            <a id="contato" class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mr-3 mb-3" href="https://api.whatsapp.com/send?phone={{ site.data.sitetext[site.locale].header.whatsapp.tel }}&text={{ site.data.sitetext[site.locale].header.whatsapp.msg | cgi_escape}}/" target="_blank">
             {{ site.data.sitetext[site.locale].header.button }}</a>
           {%- endif -%}  
           {%- if site.data.sitetext[site.locale].header.call -%}
-            <a class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mb-3"
-            href="#pricing" target="_blank">
+            <a id="planos" class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mb-3" href="#pricing" target="_blank">
             {{ site.data.sitetext[site.locale].header.call }}</a>
           {%- endif -%}
         </div>
