@@ -2,17 +2,19 @@
 #mainNav {
   background-color: $gray-900;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 20px;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: $white;
     border: 0;
     background-color: $primary;
     @include heading-font;
   }
   .navbar-brand {
-    /*color: $primary;*/
+    img {
+      height: 50px;
+    }
     font-weight: bold;
     padding: 0px;
     @include script-font;
@@ -20,7 +22,6 @@
     &:active,
     &:focus,
     &:hover {
-      /*color: darken($primary, 10%);*/
       font-weight: bold;
     }
   }
@@ -35,7 +36,6 @@
         @include heading-font;
         &.active,
         &:hover {
-          /*color: $primary;*/
           font-weight: bold;
         }
       }
@@ -52,6 +52,9 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
+      img {
+        height: 100px;
+      }
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -69,8 +72,26 @@
       padding-bottom: 0;
       background-color: $gray-900;
       .navbar-brand {
+        img {
+          height: 50px;
+        }
+      }
+      .nav-item {
+        .nav-link {
+          font-size: 90%;
+          font-weight: 400;
+          padding: 0.75em 0;
+          letter-spacing: 1px;
+          color: $white !important;
+          @include heading-font;
+          &.active,
+          &:hover {
+            font-weight: bold;
+          }
+        }
+      }
+      .navbar-brand {
         font-size: 1.25em;
-        /*padding: 12px 0;*/
       }
     }
   }

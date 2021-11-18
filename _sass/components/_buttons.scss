@@ -5,8 +5,33 @@
 }
 
 .btn-xl {
-  font-size: 14px;
+  font-size: 16px;
   padding: 12px 18px;
+}
+
+@media(min-width:768px) {
+  .btn-xl {
+    font-size: 20px;
+    padding: 12px 18px;
+  }
+}
+
+.btn-banner {
+  @include banner-font;
+  background-color: darken($secondary, 15%);
+  border-color: darken($secondary, 15%);
+  color: $primary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+    color: $primary;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+  }
 }
 
 .btn-primary {

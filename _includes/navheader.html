@@ -3,7 +3,7 @@
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       {%- if site.logo -%}
-      <img id="logo" height="{{ site.logo.height | default: 100 }}" src="{{ site.logo.path }}" />
+      <img id="logo" height="{{ site.logo.height | default: 100 }}" src="{{ site.logo.path }}"/>
       {%- else -%}
       {{ site.title }}
       {%- endif -%}
@@ -40,28 +40,36 @@
       {%- if site.data.sitetext[site.locale].header.title -%}
       <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
       {%- endif -%}
-      {%- if site.data.sitetext[site.locale].header.text -%}
-      <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-      {%- endif -%}
-      <br>
-      {%- if site.data.sitetext[site.locale].header.button -%}
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-        href="https://api.whatsapp.com/send?phone={{ site.data.sitetext[site.locale].header.whatsapp.tel }}&text={{ site.data.sitetext[site.locale].header.whatsapp.msg | cgi_escape}}/" target="_blank">
-        {{ site.data.sitetext[site.locale].header.button }}</a>
-      {%- endif -%}
+      <div class="row align-items-center">
+        <div class="col-lg-6 mx-auto">
+          <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+          {%- if site.data.sitetext[site.locale].header.button -%}
+            <a id="contato" class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mr-3 mb-3" href="https://api.whatsapp.com/send?phone={{ site.data.sitetext[site.locale].header.whatsapp.tel }}&text={{ site.data.sitetext[site.locale].header.whatsapp.msg | cgi_escape}}/" target="_blank">
+            {{ site.data.sitetext[site.locale].header.button }}</a>
+          {%- endif -%}  
+          {%- if site.data.sitetext[site.locale].header.call -%}
+            <a id="planos" class="btn btn-banner btn-xl text-uppercase js-scroll-trigger mb-3" href="#pricing" target="_blank">
+            {{ site.data.sitetext[site.locale].header.call }}</a>
+          {%- endif -%}
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <video class="video-js vjs-apta mx-auto d-block" controls preload="auto" data-setup='{}'>
+            <source src="{{ site.data.sitetext[site.locale].header.video }}" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
   </div>
 </header>
 <script>
-  window.onscroll = function () {
-    var logo = document.getElementById("logo");
-      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        logo.src = "{{ site.logo.alt }}";
-        logo.height = "{{ site.logo.heightAlt | default: 50 }}";
-      } else {
-        logo.src = "{{ site.logo.path }}";
-        logo.height = "{{ site.logo.height | default: 100 }}";
-      }
-  };
+  // window.onscroll = function () {
+  //   var logo = document.getElementById("logo");
+  //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  //       logo.src = "{{ site.logo.alt }}";
+  //     } else {
+  //       logo.src = "{{ site.logo.path }}";
+  //     }
+  // };
 </script>
 <!-- End Header -->

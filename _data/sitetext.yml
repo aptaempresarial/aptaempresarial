@@ -12,8 +12,10 @@
 pt-BR: &DEFAULT_PT
   header:
     title: 
-    text: SUA META, NOSSO DESAFIO!
+    text: SUA META,<br>NOSSO DESAFIO!
     button: Fale conosco
+    call: Conheça nossos planos
+    video: assets/video/Banner_Apta.mp4
     whatsapp:
       tel: "+5547991207077"
       msg: "Olá, vi o seu site e gostaria de mais detalhes sobre os seus serviços!"

@@ -6,13 +6,17 @@
 @import "base/mixins.scss";
 
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#0f4d92" }} !default;
+$primary: {{ site.data.style.highlight | default: "#0F4D92" }} !default;
+$secondary: {{ site.data.style.secondary | default: "#F1D562" }} !default;
+$green: {{ site.data.style.green | default: "#03989E" }} !default;
+$red: {{ site.data.style.red | default: "#EB5944" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
+$logo-image: "{{ site.data.style.logo-image }}";
 
 // Global CSS
 @import "base/page.scss";
