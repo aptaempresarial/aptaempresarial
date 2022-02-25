@@ -81,8 +81,22 @@ pt-BR: &DEFAULT_PT
         logo: assets/img/clients/EVERSON_PEDROSO_CORRETOR_DE_IMÓVEIS.png
       - title: "Câmara Libertária de Acordos e Arbitragens"
         logo: assets/img/clients/CLA_hor2_color.png
+
+  partners:
+    section: partners
+    title: Parceiros
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "BS2"
+        logo: assets/img/partners/Logo_Parceiro_Banco_BS2_Azul.png
+        link: "https://cadastro.empresas.bs2.com/bs2/?origemId=2366a5b7-9963-4f00-aed7-87eca3bb5034"
       - title: "Codetta Tech"
-        logo: assets/img/clients/CODETTA_marcadagua_Cor 1.png
+        logo: assets/img/partners/CODETTA_marcadagua_Cor 1.png
+        link: "https://codetta.tech"
+      - title: "Vexpenses"
+        logo: assets/img/partners/logotipo-vertical-colorido.png
+        link: "https://vexpenses.com.br/"
 
   about:
     title: "Sobre"

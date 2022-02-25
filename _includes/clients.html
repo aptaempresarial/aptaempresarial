@@ -1,7 +1,7 @@
 <!-- Clients -->
 <section class="py-5" id="{{ site.data.sitetext[site.locale].clients.section | default: " clients" }}">
   <div class="container">
-    <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling=="yes" %} id="scrolling-clients"
+    <div class="row justify-content-center" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling=="yes" %} id="scrolling-clients"
       {% endif %}>
       {% for client in site.data.sitetext[site.locale].clients.list %}
       <div class="col-md-3 align-middle text-center" style="line-height: 100px;">

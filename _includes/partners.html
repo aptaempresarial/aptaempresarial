@@ -1,0 +1,17 @@
+<!-- Partners -->
+<section class="py-5" id="{{ site.data.sitetext[site.locale].partners.section | default: " partners" }}">
+    <div class="container text-center">
+      <h2 class="section-heading text-uppercase mb-4">{{ site.data.sitetext[site.locale].partners.title | default:"Parceiros" }}</h2>
+      <div class="row justify-content-center" {% if site.data.sitetext[site.locale].partners.horizontal-scrolling=="yes" %} id="scrolling-clients"
+        {% endif %}>
+        {% for partners in site.data.sitetext[site.locale].partners.list %}
+        <div class="col-md-3 align-middle" style="line-height: 100px;">
+          <a target="_blank" href={{ partners.link }}>
+            <img class="img-fluid mx-auto" src="{{ partners.logo }}" alt="{{ partners.title }}"
+            style="max-height: {{ site.data.sitetext[site.locale].partners.max-height | default: " 100px" }};">
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
