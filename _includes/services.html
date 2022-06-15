@@ -1,5 +1,5 @@
 <!-- Services -->
-<section class="page-section bg-alt" id="{{ site.data.sitetext[site.locale].services.section | default: " services " }}">
+<section class="page-section" id="{{ site.data.sitetext[site.locale].services.section | default: " services " }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -12,15 +12,17 @@
         </div>
 
         <div class="row text-center">
-            {% for service in site.data.sitetext[site.locale].services.list %}
-            <div class="col-md-3">
+            {% for service in site.data.sitetext[site.locale].services.areas %}
+            <div class="col-md-4 my-5">
                 <span class="fa-stack fa-size">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="{{ service.icon | default: " fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+                    <i class="{{ service.icon }} fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-                {% if service.desc %}
-                <div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+                <!-- {% for item in service.services %}
+                <p class="text-muted">{{ item.title | markdownify }}</p>
+                {% endfor %} -->
+                <a class="btn btn-primary btn-xl" href={{ service.link }}>Saiba mais</a>
             </div>
             {% endfor %}
         </div>

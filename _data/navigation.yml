@@ -15,8 +15,6 @@ pt-BR: &DEFAULT_PT
       section: services
     - title: "Sobre"
       section: about
-    - title: "Planos"
-      section: pricing
     - title: "Nosso objetivo"
       section: objectives
     - title: "Nosso DNA"

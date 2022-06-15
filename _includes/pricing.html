@@ -12,37 +12,49 @@
         </div>
 
         <div class="row text-center">
-            {% for price in site.data.sitetext[site.locale].prices.list %}
-            <div class="feature-card col m-3 p-2 content-align-center border shadow">
-                <img src="{{ price.icon }}" class="fa-size card-img-top height-2 mt-3">
-                <div class="card-body">
-                    <h5 class="card-title service-heading">
-                        {{ price.title }}
-                        {% if price.pro %}
-                            <i class="{{ price.pro }}" style="color: gold;"></i>
+            <div class="card-group">
+                {% for price in site.data.sitetext[site.locale].prices.list %}
+                <div class="feature-card card col m-lg-3 p-2 content-align-center border shadow bg-white rounded">
+                    <img src="{{ price.icon }}" class="fa-size card-img-top height-2 mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title service-heading">
+                            {{ price.title }}
+                            {% if price.pro %}
+                                <i class="{{ price.pro }}" style="color: gold;"></i>
+                            {% endif %}
+                        </h5>
+                        {% if price.value %}
+                        <div>
+                            <span>
+                                De <s>{{ price.oldValue }}</s>
+                            </span>
+                            <br>
+                            <span class="price">
+                                Por {{ price.value }}
+                                <small>/mês</small>
+                            </span>
+                        </div>
+                        <p class="text-muted"><small>ou {{ price.annual }}/ano</small></p>
                         {% endif %}
-                    </h5>
-                    {% if price.value %}
-                    <span class="price">
-                        {{ price.value }}
-                        <small>/mês</small>
-                    </span>
-                    <p class="text-muted"><small>ou {{ price.annual }}/ano</small></p>
-                    {% endif %}
-                    <br>
-                    <div>
-                        <ul class="list-group list-group-flush">
-                            {% for feature in price.features %}
-                            <li class="list-group-item">{{ feature }}</li>
-                            {% endfor %}
-                        </ul>
+                        <br>
+                        <div>
+                            <ul class="list-group list-group-flush">
+                                {% for feature in price.features %}
+                                <li class="list-group-item">{{ feature }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white">
+                        <a class="btn btn-primary btn-xl mt-4" href={{ price.link }}>Contrate já</a>
                     </div>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
-        <div class="text-center">
-            <br>
+        <div class="text-center my-4">
+            <p class="h4 text-muted">*Há possibilidade de adicionar extratos e/ou centros de custo ao seu plano, consulte-nos diretamente.</p>
+            <!-- <br>
             {% for warning in site.data.sitetext[site.locale].prices.warnings %}
                 <p class="h6 text-muted"><small>{{ warning.desc }}</small></p>
             {% endfor %}
@@ -55,7 +67,31 @@
                     {% endfor %}
                 </ul>
                 </p>
-            <p class="text-muted">{{ site.data.sitetext[site.locale].prices.warning2 }}</p>
+            <p class="text-muted">{{ site.data.sitetext[site.locale].prices.warning2 }}</p> -->
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-10 bg-white rounded">
+            <table class="table table-hover table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">Plano Financeiro</th>
+                    <th scope="col">Básico</th>
+                    <th scope="col">Avançado</th>
+                    <th scope="col">Pro</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for row in site.data.sitetext[site.locale].prices.table %}
+                  <tr>
+                    <td>{{ row.title }}</td>
+                    <td>{{ row.basic }}</td>
+                    <td>{{ row.advanced }}</td>
+                    <td>{{ row.full }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
         </div>
     </div>
 </section>

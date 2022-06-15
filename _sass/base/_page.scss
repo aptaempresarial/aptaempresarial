@@ -23,6 +23,10 @@ a {
   color: $primary !important;
 }
 
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
 h1,
 h2,
 h3,
@@ -142,4 +146,14 @@ img::-moz-selection {
     background-image: url("../img/logos/aptaempresarial/Logo Apta Flat Icone branco rotate.png");
     background-size: cover;
     background-position: center center;
+}
+
+#pagecontainer {
+  @media(min-width:768px) {
+    padding-top: 200px !important;
+  }
+}
+
+.bg-dark {
+  background-color: #212529 !important;
 }
