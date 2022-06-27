@@ -52,70 +52,70 @@ pt-BR: &DEFAULT_PT
             list: 
               - "Lembrete para pagamento"
               - "Cobrança de valores devidos"
-              - "Negativação e protesto"
-      - title: "Serviços Contábeis"
-        text: "Invista nos nossos serviços contábeis. Te ajudamos a ficar em dia com a burocracia da sua empresa!"
-        icon: fas fa-search-dollar
-        link: "/accounting"
-        services:
-          - title: "Área Fiscal"
-            icon: fa-solid fa-magnifying-glass-dollar
-            list: 
-              - "DIMOB"
-              - "SPED fiscal"
-              - "EFD contribuições"
-              - "DCTF"
-              - "PER/DECOMP"
-              - "Parcelamento de débitos"
-              - "Requerimento para emissão de notas fiscais junto a Secretaria Municipal"
-              - "Impostos sobre Serviços - ISSQN"
-              - "Simples Nacional"
-              - "Apuração e elaboração de guias de pagamento para os tributos devidos conforme Enquadramento Tributário"
-          - title: "Área Contábil"
-            icon: fa-solid fa-money-bill-wave
-            list: 
-              - "Digitação e análise de documentação"
-              - "Conciliação das contas contábeis"
-              - "Processamento e emissão de Balancetes Mensais, Balanço Patrimonial, Livro Diário e Livro Razão"
-              - "Apuração e elaboração das guias de pagamento de Imposto de Renda Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro (CSLL)"
-              - "Elaboração e transmissão de SPED Contábil e Escrituração Contábil Fiscal (ECF)"
-              - "Declaração de Débitos e Créditos Tributários Federais (DCTF WEB)"
-              - "Emissão e autenticação do Livro Diário na Junta Comercial do Estado"
-              - "Atendimentos e orientações referente a Receita Federal do Brasil"
-          - title: "Área Trabalhista"
-            icon: fa-solid fa-people-group
-            list:
-              - "• eSocial"
-              - "• eSocial Doméstica"
-              - "• Consulte-nos para mais detalhes"
-          - title: "Paralegal"
-            icon: fa-solid fa-scale-balanced
-            list: 
-              - "Constituição de empresas, com a confecção de:
-                  <br>
-                  Contrato Social;
-                  <br>
-                  Estatuto;
-                  <br>
-                  Cadastro de Microempreendedor individual – MEI;
-                  <br>
-                  Cadastro Junto aos órgãos públicos;"
-              - "Alteração Contratual, com:
-                  <br>
-                  Confecção de aditivos, atas e estatutos;
-                  <br>
-                  Análise, confecção e acompanhamento de documentos envolvendo quaisquer outras alterações de naturezas diversas junto aos órgãos públicos;"
-              - "Baixa de empresas, com:
-                  <br>
-                  Confecção de Distrito Social;
-                  <br>
-                  Baixa junto aos órgãos de competência"
-              - "Emissão de certidões de negativas:
-                  <br>
-                  Pessoa Física
-                  <br>
-                  Pessoa Jurídica"
-              - "IRPF"
+              - "Negativação"
+      # - title: "Serviços Contábeis"
+      #   text: "Invista nos nossos serviços contábeis. Te ajudamos a ficar em dia com a burocracia da sua empresa!"
+      #   icon: fas fa-search-dollar
+      #   link: "/accounting"
+      #   services:
+      #     - title: "Área Fiscal"
+      #       icon: fa-solid fa-magnifying-glass-dollar
+      #       list: 
+      #         - "DIMOB"
+      #         - "SPED fiscal"
+      #         - "EFD contribuições"
+      #         - "DCTF"
+      #         - "PER/DECOMP"
+      #         - "Parcelamento de débitos"
+      #         - "Requerimento para emissão de notas fiscais junto a Secretaria Municipal"
+      #         - "Impostos sobre Serviços - ISSQN"
+      #         - "Simples Nacional"
+      #         - "Apuração e elaboração de guias de pagamento para os tributos devidos conforme Enquadramento Tributário"
+      #     - title: "Área Contábil"
+      #       icon: fa-solid fa-money-bill-wave
+      #       list: 
+      #         - "Digitação e análise de documentação"
+      #         - "Conciliação das contas contábeis"
+      #         - "Processamento e emissão de Balancetes Mensais, Balanço Patrimonial, Livro Diário e Livro Razão"
+      #         - "Apuração e elaboração das guias de pagamento de Imposto de Renda Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro (CSLL)"
+      #         - "Elaboração e transmissão de SPED Contábil e Escrituração Contábil Fiscal (ECF)"
+      #         - "Declaração de Débitos e Créditos Tributários Federais (DCTF WEB)"
+      #         - "Emissão e autenticação do Livro Diário na Junta Comercial do Estado"
+      #         - "Atendimentos e orientações referente a Receita Federal do Brasil"
+      #     - title: "Área Trabalhista"
+      #       icon: fa-solid fa-people-group
+      #       list:
+      #         - "• eSocial"
+      #         - "• eSocial Doméstica"
+      #         - "• Consulte-nos para mais detalhes"
+      #     - title: "Paralegal"
+      #       icon: fa-solid fa-scale-balanced
+      #       list: 
+      #         - "Constituição de empresas, com a confecção de:
+      #             <br>
+      #             Contrato Social;
+      #             <br>
+      #             Estatuto;
+      #             <br>
+      #             Cadastro de Microempreendedor individual – MEI;
+      #             <br>
+      #             Cadastro Junto aos órgãos públicos;"
+      #         - "Alteração Contratual, com:
+      #             <br>
+      #             Confecção de aditivos, atas e estatutos;
+      #             <br>
+      #             Análise, confecção e acompanhamento de documentos envolvendo quaisquer outras alterações de naturezas diversas junto aos órgãos públicos;"
+      #         - "Baixa de empresas, com:
+      #             <br>
+      #             Confecção de Distrito Social;
+      #             <br>
+      #             Baixa junto aos órgãos de competência"
+      #         - "Emissão de certidões de negativas:
+      #             <br>
+      #             Pessoa Física
+      #             <br>
+      #             Pessoa Jurídica"
+      #         - "IRPF"
       - title: "Serviços Estratégicos"
         text: "Soluções estratégicas e diagnóstico empresarial é com a gente. Temos as melhores parcerias para direcionar o seu negócio!"
         icon: fas fa-bullseye
