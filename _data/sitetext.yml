@@ -51,7 +51,7 @@ pt-BR: &DEFAULT_PT
             icon: fa-solid fa-comments-dollar
             list: 
               - "Lembrete para pagamento"
-              - "Cobrança de valores devidos"
+              - "Cobranças Extrajudiciais e Judiciais"
               - "Negativação"
       # - title: "Serviços Contábeis"
       #   text: "Invista nos nossos serviços contábeis. Te ajudamos a ficar em dia com a burocracia da sua empresa!"
@@ -177,6 +177,9 @@ pt-BR: &DEFAULT_PT
       - title: "Câmara Libertária de Acordos e Arbitragens"
         logo: assets/img/partners/CLA_hor2_color.png
         link: "http://www.camaralibertaria.com.br/"
+      - title: "Boger e Bernardes"
+        logo: assets/img/partners/boger_&_bernardes.png
+        link: "#"
 
   about:
     title: "Sobre"
@@ -273,38 +276,63 @@ pt-BR: &DEFAULT_PT
               relatórios, esses irão equipar sua empresa para o andamento do negócio. Aqui você
               trata das informações da sua empresa conosco de uma forma mais leve, clara e bem
               direcionada."
+        list:
+          - "A Apta se compromete em fornecer o esclarecimento de ideias, projetos e de relatórios, os quais irão equipar sua empresa para o andamento do negócio."
+          - "Informações de uma forma mais leve, clara e bem direcionada."
       - title: "Direcionamento"
         desc: "Você cultiva os dados, a Apta encaminha. Metas, propósitos e objetivos traçados
               em curto, médio e longo prazo. Foco para o aumento dos resultados com orientação 
               profissional capacitada. Interesse genuíno da Apta no <b>fortalecimento do seu
               negócio</b>."
+        list:
+          - "Você cultiva os dados, a Apta encaminha. "
+          - "Metas, propósitos e objetivos traçados em curto, médio e longo prazo."
       - title: "Sucesso do cliente"
         desc: "Implementamos controle e processos para que toda a informação gerada por
               você, seus colaboradores, seus clientes e fornecedores - os quais são os
               stakeholders para o funcionamento do seu negócio - obtenham um aproveitamento
               ótimo, gerando resultados e abrindo novas oportunidades no escopo empresarial. “O
               homem nunca está satisfeito porque a busca é mais satisfatória que a chegada.”"
-      - title: "Liberdade para empreender"
-        desc: "Para você que é <b>autônomo</b> e está perdido com a administração das finanças,
-              pois está focado em alimentar seus negócios, a Apta oferece apoio. Operamos como
-              principal suporte para o crescimento e evolução dos seus negócios. Estar em
-              sintonia com a saúde financeira vai além do faturamento, pois aqui usamos isso
-              como fator impulsionante do seu potencial profissional."
-      - title: "Precificação objetiva"
-        desc: "Oferecemos serviços com precificação fixa, levando em conta variações de
-              acordo com necessidades do cliente, porque assim como nós, cada cliente possui
-              um DNA o qual atribui propósito na hora de fechar uma parceria. Mas tenha certeza
-              que marcar um café conosco será um papo bom na certa! Aguardamos a sua
-              companhia sem compromisso nas nossas manhãs. Os horários podem ser
-              marcados por E-mail ou Whatsapp."
-      - title: "Serviços contínuos ou esporádicos"
-        desc: "Oferecemos serviços de assessoria que apoiam o empreendedor. Prezamos pelo
-              bom funcionamento do seu negócio e valorizamos cada relação cultivada até que
-              um novo ciclo se inicie. Portanto, somos gratos pela oportunidade de oferecer
-              consultoria propondo uma nova visão dentro dos objetivos existentes e aplicando
-              essa metodologia em busca de resultados alavancados, para que novas metas e
-              objetivos lhes sejam atribuídas e um novo projeto para evolução seja posto em
-              prática. Que seja eterno enquanto dure essa paixão e os desafios a ela elencados!"
+        list:
+          - "Implementamos controle e processos para que toda a informação gerada obtenha um aproveitamento óptimo gerando resultado e abrindo novas oportunidades no escopo empresarial. “O homem nunca está satisfeito porque a busca é mais satisfatória que a chegada.”"
+      - title: "Empreender e Alavancar"
+        desc: ""
+        list:
+          - "Para você que foca em alimentar seus negócios."
+          - "Estar em sintonia com saúde financeira vai além do faturamento pois aqui usamos isso como alavancagem do seu potencial profissional."
+      #- title: "Liberdade para empreender"
+      #  desc: "Para você que é <b>autônomo</b> e está perdido com a administração das finanças,
+      #        pois está focado em alimentar seus negócios, a Apta oferece apoio. Operamos como
+      #        principal suporte para o crescimento e evolução dos seus negócios. Estar em
+      #        sintonia com a saúde financeira vai além do faturamento, pois aqui usamos isso
+      #        como fator impulsionante do seu potencial profissional."
+      #  list:
+      #    -
+      #    -
+      #    -
+      #- title: "Precificação objetiva"
+      #  desc: "Oferecemos serviços com precificação fixa, levando em conta variações de
+      #        acordo com necessidades do cliente, porque assim como nós, cada cliente possui
+      #        um DNA o qual atribui propósito na hora de fechar uma parceria. Mas tenha certeza
+      #        que marcar um café conosco será um papo bom na certa! Aguardamos a sua
+      #        companhia sem compromisso nas nossas manhãs. Os horários podem ser
+      #        marcados por E-mail ou Whatsapp."
+      #  list:
+      #    -
+      #    -
+      #    -
+      #- title: "Serviços contínuos ou esporádicos"
+      #  desc: "Oferecemos serviços de assessoria que apoiam o empreendedor. Prezamos pelo
+      #        bom funcionamento do seu negócio e valorizamos cada relação cultivada até que
+      #        um novo ciclo se inicie. Portanto, somos gratos pela oportunidade de oferecer
+      #        consultoria propondo uma nova visão dentro dos objetivos existentes e aplicando
+      #        essa metodologia em busca de resultados alavancados, para que novas metas e
+      #        objetivos lhes sejam atribuídas e um novo projeto para evolução seja posto em
+      #        prática. Que seja eterno enquanto dure essa paixão e os desafios a ela elencados!"
+      #  list:
+      #    -
+      #    -
+      #    -
 
   dna:
     title: "Nosso DNA"
@@ -326,8 +354,16 @@ pt-BR: &DEFAULT_PT
           montamos esse formulário com o intuito de entender e melhorar 
           as necessidades de cada empreendedor que venha a participar 
           da Apta Empresarial."
-    icon: fas fa-file-signature
-    link: "https://forms.gle/qSrRSZGmi2fYZRfq5"
+    list:
+      - title: "Pesquisa de Necessidade Estratégica"
+        icon: fas fa-file-signature
+        link: "https://forms.gle/x4jWqTcjZvqHJ8SY8"
+      - title: "Gestão de Estoque - Dinâmica da Realidade"
+        icon: fas fa-file-signature
+        link: "https://forms.gle/FzFQTPq7KSVD7E3C7"
+      - title: "Famílias que vivem de Renda Aluguel"
+        icon: fas fa-file-signature
+        link: "https://forms.gle/4fdbocwJdMJAaQWy5"
 
   team:
     title: "NOSSO TIME"

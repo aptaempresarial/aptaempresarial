@@ -5,7 +5,7 @@
       <div class="row justify-content-center" {% if site.data.sitetext[site.locale].partners.horizontal-scrolling=="yes" %} id="scrolling-clients"
         {% endif %}>
         {% for partners in site.data.sitetext[site.locale].partners.list %}
-        <div class="col-md-3 align-middle" style="line-height: 100px;">
+        <div class="col-md-2 align-middle" style="line-height: 100px;">
           <a target="_blank" href={{ partners.link }}>
             <img class="img-fluid mx-auto" src="{{ partners.logo }}" alt="{{ partners.title }}"
             style="max-height: {{ site.data.sitetext[site.locale].partners.max-height | default: " 100px" }};">
