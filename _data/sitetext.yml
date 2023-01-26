@@ -140,6 +140,32 @@ pt-BR: &DEFAULT_PT
             list: 
               - "Segunda opinião sobre situações adversas"
               - "Análise do Financeiro x Contábil"
+      # - title: "Holding Familiar"
+      #   text: "Eficiência tributária na administração dos bens da família!"
+      #   icon: fas fa-bullseye
+      #   link: "/holding"
+      #   services:
+      #     - question: "Por que planejar a sucessão ao invés de deixar tudo para ser resolvido no inventário?"
+      #       icon: assets/img/7.png
+      #       answer: "Ao resolver a sucessão seguindo os passos jurídicos tradicionais, as chances de perder patrimônio e dinheiro para o processo de inventário são certas. O inventário sempre pega a família de surpresa pois a morte de um ente querido é um momento muito delicado.
+      #       <br>As despesas também não ajudam, o custo de um inventário gira em torno de 12% a 15% do valor do patrimônio a valor de mercado."
+      #       position: "left"
+      #     - question: "E o testamento não resolve?"
+      #       icon: assets/img/8.png
+      #       answer: "Os testamentos são importantes direcionadores contudo caso for opção dentro do planejamento devem ser utilizados em conjunto com outros instrumentos, como: holdings, acordos, contratos personalizados, estruturação de governança e regulamentos de usufruto."
+      #       position: "right"
+      #     - question: "Como utilizar a holding dentro do sistema?"
+      #       icon: assets/img/9.png
+      #       answer: "Uma holding é uma empresa criada para controlar e administrar seja familiar ou corporativa. No caso da holding familiar o objetivo é gerir o patrimônio das pessoas que pertencem a uma determinada família."
+      #       position: "left"
+      #     - question: "Por que abrir uma empresa para planejar?"
+      #       icon: assets/img/10.png
+      #       answer: "Seja para administrar renda de aluguel ou o processo sucessório, além de facilitar o direcionamento das decisões e do financeiro familiar, fato é que, no sistema comum, sem a existência de uma holding familiar para proteger o patrimônio de uma família que participe de alguma atividade empresária assim que houver algum revés nessa atividade pode comprometer e alcançar um patrimônio constituído ao longo de uma vida."
+      #       position: "right"
+      #     - question: "Os cônjuges dos meus herdeiros poderão ser também sócios no negócio?"
+      #       icon: assets/img/11.png
+      #       answer: "Depende do que ficar definido na família. Não há orientação única nesse sentido. Deve-se lembrar que é necessário manter os pontos nos “is”. O ingresso de quaisquer familiares para trabalhar na empresa, independentemente de serem sócios ou não, também pode e deve ser regrado. Essas normas familiares vão lidar com as variações comuns na dinâmica familiar como: casamentos, divórcios, novos herdeiros, ausências e outras complicações."
+      #       position: "left"
 
   clients:
     section: clients

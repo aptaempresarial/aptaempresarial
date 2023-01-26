@@ -1,0 +1,37 @@
+---
+layout: page
+title: Planejamento Sucessório
+permalink: /holding
+---
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].services.areas[2].title | default:
+            "Serviços" }}</h2>
+        {% if site.data.sitetext[site.locale].services.areas[2].text %}
+        <h3 class="section-subheading text-light my-5">{{ site.data.sitetext[site.locale].services.areas[2].text }}</h3>
+        {% endif %}
+    </div>
+</div>
+<div class="row align-items-center justify-content-center my-5">
+{% for service in site.data.sitetext[site.locale].services.areas[2].services %}
+    {% if service.position == "left" %}
+    <div class="col-lg-3">
+        <img src="{{ service.icon }}" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-7">
+        <h6>{{ service.question }}</h6>
+        <p class="text-white">{{ service.answer }}</p>
+    </div>
+    {% endif %}
+
+    {% if service.position == "right" %}
+    <div class="col-lg-7">
+        <h6>{{ service.question }}</h6>
+        <p class="text-white">{{ service.answer }}</p>
+    </div>
+    <div class="col-lg-3">
+        <img src="{{ service.icon }}" class="img-fluid" alt="">
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

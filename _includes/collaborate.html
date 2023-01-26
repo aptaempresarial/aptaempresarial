@@ -16,8 +16,13 @@
                     <div class="row justify-content-center">
                         {% for item in site.data.sitetext[site.locale].collaborate.list %}
                         <div class="col-lg-3">
-                            <p> {{ item.title }}</p>
-                            <a href="{{ item.link }}" target="_blank">
+                            <div class="row">
+                                <p> {{ item.title }}</p>
+                            </div>
+                            <a href="{{ item.link }}" target="_blank" class="mt-auto" style="bottom: 0;right: 0;left: 0;position: absolute;">
+                                <i class="fa-stack-4x fa-size {{ item.icon }}"></i>
+                            </a>
+                            <a href="{{ item.link }}" target="_blank" class="mt-auto" style="visibility: hidden;">
                                 <i class="fa-stack-4x fa-size {{ item.icon }}"></i>
                             </a>
                         </div>

@@ -24,7 +24,7 @@
                             {% endif %}
                         </h5>
                         {% if price.value %}
-                        <div>
+                        <!-- <div>
                             <span>
                                 De <s>{{ price.oldValue }}</s>
                             </span>
@@ -34,7 +34,7 @@
                                 <small>/mês</small>
                             </span>
                         </div>
-                        <p class="text-muted"><small>ou {{ price.annual }}/ano</small></p>
+                        <p class="text-muted"><small>ou {{ price.annual }}/ano</small></p> -->
                         {% endif %}
                         <br>
                         <div>
@@ -70,7 +70,7 @@
             <p class="text-muted">{{ site.data.sitetext[site.locale].prices.warning2 }}</p> -->
         </div>
     </div>
-    <div class="row justify-content-center align-items-center">
+    <!-- <div class="row justify-content-center align-items-center">
         <div class="col-lg-10 bg-white rounded">
             <table class="table table-hover table-responsive-sm">
                 <thead>
@@ -92,6 +92,24 @@
                   {% endfor %}
                 </tbody>
               </table>
+        </div>
+    </div> -->
+    <div class="row align-items-center justify-content-center">
+        <div class="card m-lg-3 col-lg-6 border shadow">
+            <div class="card-body">
+                <h4 class="card-title">
+                    <b>A sua necessidade não se encaixa em nenhum plano apresentado?</b>
+                </h4>
+                <p class="card-text">
+                    Não se preocupe!
+                    <br>
+                    Nossos especialistas aguardam seu contato para fazer um projeto específico para sua empresa.
+                    <br>
+                    Basta preencher o formulário indicado para entrarmos em contato e analisarmos as particularidades de sua empresa.
+                    <br>
+                    <a href="https://forms.gle/BkPYeAboVJAvrd2p9">Link do formulário</a>
+                </p>
+            </div>
         </div>
     </div>
 </section>
