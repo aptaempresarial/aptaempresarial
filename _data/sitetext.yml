@@ -425,7 +425,7 @@ pt-BR: &DEFAULT_PT
         icon: fab fa-instagram
 
   footer:
-    name: Apta Empresarial - Assessoria e Consultoria Estratégica<br>38.108.365/0001-07 
+    name: AE Soluções Financeiras<br>38.108.365/0001-07 
     contact: "contato@aptaempresarial.com.br<br>+55 47 9-9120-7077"
     social:
       - url: https://github.com/aptaempresarial/aptaempresarial
