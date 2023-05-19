@@ -32,6 +32,8 @@ pt-BR: &DEFAULT_PT
         text: "Conheça os planos das nossas soluções financeiras para o seu negócio!"
         icon: fas fa-chart-line
         link: "/financial"
+        download: false
+        button: "Saiba mais"
         services: 
           - title: "Assessoria Financeira"
             icon: fa-solid fa-money-bill-trend-up
@@ -120,6 +122,8 @@ pt-BR: &DEFAULT_PT
         text: "Soluções estratégicas e diagnóstico empresarial é com a gente. Temos as melhores parcerias para direcionar o seu negócio!"
         icon: fas fa-bullseye
         link: "/strategic"
+        download: false
+        button: "Saiba mais"
         services: 
           - title: "Plano de Negócios"
             icon: fa-solid fa-briefcase
@@ -166,6 +170,12 @@ pt-BR: &DEFAULT_PT
       #       icon: assets/img/11.png
       #       answer: "Depende do que ficar definido na família. Não há orientação única nesse sentido. Deve-se lembrar que é necessário manter os pontos nos “is”. O ingresso de quaisquer familiares para trabalhar na empresa, independentemente de serem sócios ou não, também pode e deve ser regrado. Essas normas familiares vão lidar com as variações comuns na dinâmica familiar como: casamentos, divórcios, novos herdeiros, ausências e outras complicações."
       #       position: "left"
+      - title: "Catálogo Completo"
+        text: ""
+        icon: fas fa-file-pdf
+        link: "assets/pdf/SOLUÇÕES_APTA_EMPRESARIAL-NACIONAL.pdf"
+        download: true
+        button: "Baixar"
 
   clients:
     section: clients
@@ -200,9 +210,9 @@ pt-BR: &DEFAULT_PT
       - title: "Vexpenses"
         logo: assets/img/partners/logotipo-vertical-colorido.png
         link: "https://vexpenses.com.br/"
-      - title: "Câmara Libertária de Acordos e Arbitragens"
-        logo: assets/img/partners/CLA_hor2_color.png
-        link: "http://www.camaralibertaria.com.br/"
+      #- title: "Câmara Libertária de Acordos e Arbitragens"
+      #  logo: assets/img/partners/CLA_hor2_color.png
+      #  link: "http://www.camaralibertaria.com.br/"
       - title: "Boger e Bernardes"
         logo: assets/img/partners/boger_&_bernardes.png
         link: "#"

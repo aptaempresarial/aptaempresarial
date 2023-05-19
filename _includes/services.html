@@ -22,7 +22,10 @@
                 <!-- {% for item in service.services %}
                 <p class="text-muted">{{ item.title | markdownify }}</p>
                 {% endfor %} -->
-                <a class="btn btn-primary btn-xl" href={{ service.link }}>Saiba mais</a>
+                <a class="btn btn-primary btn-xl" href={{ service.link }}
+                {% if service.download %}
+                 download=""
+                {% endif %}>{{ service.button }}</a>
             </div>
             {% endfor %}
         </div>
