@@ -201,34 +201,34 @@ pt-BR: &DEFAULT_PT
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      #- title: "BS2"
-      #  logo: assets/img/partners/Logo_Parceiro_Banco_BS2_Azul.png
-      #  link: "https://cadastro.empresas.bs2.com/bs2/?origemId=2366a5b7-9963-4f00-aed7-87eca3bb5034"
+      - title: "Company Hero"
+        logo: assets/img/partners/Logo_CompanyHero_PNG.png
+        link: "#"
       - title: "Codetta Tech"
         logo: assets/img/partners/CODETTA_marcadagua_Cor 1.png
         link: "https://codetta.tech"
       - title: "Vexpenses"
         logo: assets/img/partners/logotipo-vertical-colorido.png
         link: "https://vexpenses.com.br/"
-      #- title: "Câmara Libertária de Acordos e Arbitragens"
-      #  logo: assets/img/partners/CLA_hor2_color.png
-      #  link: "http://www.camaralibertaria.com.br/"
+      - title: "Certificado Digital Blumenau"
+        logo: assets/img/partners/CERTIFICADO DIGITAL BLUMENAU.png
+        link: "#"
       - title: "Boger e Bernardes"
         logo: assets/img/partners/boger_&_bernardes.png
+        link: "#"
+      - title: "Status Serviços Contábeis"
+        logo: assets/img/partners/status.png
         link: "#"
 
   about:
     title: "Sobre"
     text: "Veja o começo da nossa trajetória e venha fazer parte da nossa história!"
     section: about
-    desc: "Com o propósito de apoiar do profissional liberal ao médio empreendedor, 
-          a Apta Empresarial foi fundada. Oferecendo serviços de Assessoria Financeira e 
-          Consultoria Empresarial, nosso objetivo é melhorar o dia a dia do empresário em 
-          sua aplicação. Direcionando metas e criando novas perspectivas de crescimento e 
-          expansão auxiliando na tomada de decisão. Em meados de Agosto de 2020 iniciou-se 
-          as divulgações e serviços da Apta e para oferecer um serviço diferenciado na 
-          gestão financeira, contamos com ótimas parcerias. Focando na Região Sul do país, 
-          a meta é contribuir cada vez mais na inovação com serviços remotos e de ótimo custo benefício!"
+    desc: "Com o propósito de desburocratizar a vida do empresário em meados de Agosto de 2020
+      a AE Soluções Financeiras foi fundada. O nosso objetivo é melhorar e aprimorar o dia a dia
+      do empresário direcionando seu negócio e criando novas perspectivas de crescimento.
+       Contamos com ótimas parcerias pelo Brasil... Focando na Região Sul do país e a nossa meta
+       é contribuir cada vez mais na inovação com uma entrega de qualidade e excelência."
 
   prices:
     title: "Planos"

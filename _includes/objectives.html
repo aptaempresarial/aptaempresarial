@@ -14,7 +14,7 @@
             {% for objective in site.data.sitetext[site.locale].objectives.list %}
             <div class="col-md-5 my-3 card bg-light">
                 <div class="card-body">
-                    <h4 class="card-title service-heading">{{ objective.title | markdownify }}</h4>
+                    <h4 class="card-title service-heading text-center">{{ objective.title | markdownify }}</h4>
                     <ul class="list-group list-group-flush card-text">
                         {% for item in objective.list %}
                         <li class="list-group-item bg-light border-top-0 text-center">{{ item }}</li>

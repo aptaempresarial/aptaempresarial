@@ -24,9 +24,9 @@ logoDev:
   path: assets/img/codetta.svg
   height: 30
 logo:     #optional, defaults to site title
-  path: assets/img/logos/aptaempresarial/Logo Apta Flat Icone branco.png
+  path: assets/img/logos/aptaempresarial/Logo Apta Flat Vertical 2.png
   height: 100 #height in px, defaults to 52px
-  alt: assets/img/logos/aptaempresarial/Logo Apta Flat Icone branco.png
+  alt: assets/img/logos/aptaempresarial/Logo Apta Flat Vertical 2.png
   heightAlt: 50
 
 locale: "pt-BR" # See available languages in _data/sitetext.yml
